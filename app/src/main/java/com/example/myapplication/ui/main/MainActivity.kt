@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -19,6 +19,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.myapplication.R
 
 
 class MainActivity : ComponentActivity() {
@@ -133,7 +134,7 @@ fun WelcomeScreen() {
                     .height(100.dp)
                     .offset(y = (-90.dp))
                     .background(
-                        color = Color(0xFFFFFF),
+                        color = Color(0xFFFFFFFF),
                         shape = RoundedCornerShape(topStart = 50.dp, topEnd = 50.dp)
                     ),
                 contentAlignment = Alignment.Center
