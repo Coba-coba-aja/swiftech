@@ -134,7 +134,7 @@ fun WelcomeScreen() {
                     .height(100.dp)
                     .offset(y = (-90.dp))
                     .background(
-                        color = Color(0xFFFFFF),
+                        color = Color(0xFFFFFFFF),
                         shape = RoundedCornerShape(topStart = 50.dp, topEnd = 50.dp)
                     ),
                 contentAlignment = Alignment.Center
